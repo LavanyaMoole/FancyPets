@@ -1,0 +1,13 @@
+img {
+    width: 200px;
+}
+
+#imageContainer > div {
+    margin: 15px;
+}
+
+#imageContainer {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
